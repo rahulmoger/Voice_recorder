@@ -1,0 +1,19 @@
+com/example/voicerecorder/Fragments/RecorderFragment.java
+ com.example.voicerecorder.Fragments.RecorderFragment
+ com.example.voicerecorder.Fragments.RecorderFragment$1
+ com.example.voicerecorder.Fragments.RecorderFragment$2
+com/example/voicerecorder/BuildConfig.java
+ com.example.voicerecorder.BuildConfig
+com/example/voicerecorder/RecViewHolder.java
+ com.example.voicerecorder.RecViewHolder
+com/example/voicerecorder/MainActivity.java
+ com.example.voicerecorder.MainActivity
+com/example/voicerecorder/Adapters/ViewPagerAdapter.java
+ com.example.voicerecorder.Adapters.ViewPagerAdapter
+com/example/voicerecorder/Adapters/RecAdapter.java
+ com.example.voicerecorder.Adapters.RecAdapter
+ com.example.voicerecorder.Adapters.RecAdapter$1
+com/example/voicerecorder/OnSelectListener.java
+ com.example.voicerecorder.OnSelectListener
+com/example/voicerecorder/Fragments/RecordingsFragment.java
+ com.example.voicerecorder.Fragments.RecordingsFragment
