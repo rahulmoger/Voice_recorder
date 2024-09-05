@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.voicerecorder"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" >
+11-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:4:5-6:23
+11-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:4:22-77
+12    </uses-permission>
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+13-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:7:5-9:23
+13-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:7:22-78
+14    </uses-permission>
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" >
+15-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:10:5-12:23
+15-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:10:22-68
+16    </uses-permission>
+17
+18    <application
+18-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:14:5-38:19
+19        android:allowBackup="true"
+19-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:15:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.5.0] C:\Users\RAMA LEELA\.gradle\caches\transforms-2\files-2.1\07adfc08fe16d3453ab9291511ec05fe\core-1.5.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:16:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:17:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:18:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:19:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.VoiceRecorder" >
+27-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:20:9-51
+28        <activity android:name="com.example.voicerecorder.MainActivity" >
+28-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:21:9-27:20
+28-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:21:19-47
+29            <intent-filter>
+29-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:22:13-26:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:23:17-69
+30-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:25:17-77
+32-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:25:27-74
+33            </intent-filter>
+34        </activity>
+35
+36        <provider
+37            android:name="androidx.core.content.FileProvider"
+37-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:30:13-62
+38            android:authorities="com.example.voicerecorder.provider"
+38-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:31:13-60
+39            android:exported="false"
+39-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:32:13-37
+40            android:grantUriPermissions="true" >
+40-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:33:13-47
+41            <meta-data
+41-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:34:13-36:58
+42                android:name="android.support.FILE_PROVIDER_PATHS"
+42-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:35:17-67
+43                android:resource="@xml/provider_paths" />
+43-->C:\Users\RAMA LEELA\AndroidStudioProjects\VoiceRecorder\app\src\main\AndroidManifest.xml:36:17-55
+44        </provider>
+45
+46        <activity
+46-->[com.karumi:dexter:6.2.3] C:\Users\RAMA LEELA\.gradle\caches\transforms-2\files-2.1\8b2552ae221c9c9c14249844f427f8d5\dexter-6.2.3\AndroidManifest.xml:27:9-29:72
+47            android:name="com.karumi.dexter.DexterActivity"
+47-->[com.karumi:dexter:6.2.3] C:\Users\RAMA LEELA\.gradle\caches\transforms-2\files-2.1\8b2552ae221c9c9c14249844f427f8d5\dexter-6.2.3\AndroidManifest.xml:28:13-60
+48            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+48-->[com.karumi:dexter:6.2.3] C:\Users\RAMA LEELA\.gradle\caches\transforms-2\files-2.1\8b2552ae221c9c9c14249844f427f8d5\dexter-6.2.3\AndroidManifest.xml:29:13-69
+49    </application>
+50
+51</manifest>
